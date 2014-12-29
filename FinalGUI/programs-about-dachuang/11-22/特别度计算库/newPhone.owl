@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="GBK"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+  <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#样式">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#外观"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#配置">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#价钱"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#功能">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#系统"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#音效">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#耳机"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#游戏">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#电池"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#反应">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#屏幕"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#照片">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#质量"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#价钱">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#手机"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#音量">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#手机"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#信号">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#电池"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#相机">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#功能"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#耳机">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#音质"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#手机">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#按键">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#音量"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#亮度">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#屏幕"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#外形">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#做工"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#HasA">
+    <rdfs:range rdf:resource="http://www.xfront.com/owl/ontology/phone/#耗电量"/>
+    <rdfs:range rdf:resource="http://www.xfront.com/owl/ontology/phone/#相机"/>
+    <rdfs:range rdf:resource="http://www.xfront.com/owl/ontology/phone/#屏幕"/>
+    <rdfs:range rdf:resource="http://www.xfront.com/owl/ontology/phone/#样子"/>
+    <rdfs:range rdf:resource="http://www.xfront.com/owl/ontology/phone/#界面"/>
+    <rdfs:domain rdf:resource="http://www.xfront.com/owl/ontology/phone/#质量"/>
+    <rdfs:range rdf:resource="http://www.xfront.com/owl/ontology/phone/#内存"/>
+    <rdfs:domain rdf:resource="http://www.xfront.com/owl/ontology/phone/#音质"/>
+    <rdfs:domain rdf:resource="http://www.xfront.com/owl/ontology/phone/#功能"/>
+    <rdfs:range rdf:resource="http://www.xfront.com/owl/ontology/phone/#网络"/>
+    <rdfs:domain rdf:resource="http://www.xfront.com/owl/ontology/phone/#边框"/>
+    <rdfs:domain rdf:resource="http://www.xfront.com/owl/ontology/phone/#耳机"/>
+    <rdfs:domain rdf:resource="http://www.xfront.com/owl/ontology/phone/#电池"/>
+    <rdfs:range rdf:resource="http://www.xfront.com/owl/ontology/phone/#音效"/>
+    <rdfs:range rdf:resource="http://www.xfront.com/owl/ontology/phone/#性能"/>
+    <rdfs:range rdf:resource="http://www.xfront.com/owl/ontology/phone/#缺点"/>
+    <rdfs:range rdf:resource="http://www.xfront.com/owl/ontology/phone/#音量"/>
+    <rdfs:domain rdf:resource="http://www.xfront.com/owl/ontology/phone/#手机"/>
+    <rdfs:domain rdf:resource="http://www.xfront.com/owl/ontology/phone/#颜色"/>
+    <rdfs:range rdf:resource="http://www.xfront.com/owl/ontology/phone/#电池"/>
+    <rdfs:range rdf:resource="http://www.xfront.com/owl/ontology/phone/#外壳"/>
+    <rdfs:range rdf:resource="http://www.xfront.com/owl/ontology/phone/#质感"/>
+    <rdfs:range rdf:resource="http://www.xfront.com/owl/ontology/phone/#尺寸"/>
+    <rdfs:range rdf:resource="http://www.xfront.com/owl/ontology/phone/#赠品"/>
+    <rdfs:range rdf:resource="http://www.xfront.com/owl/ontology/phone/#信号"/>
+    <rdfs:range rdf:resource="http://www.xfront.com/owl/ontology/phone/#亮度"/>
+    <rdfs:range rdf:resource="http://www.xfront.com/owl/ontology/phone/#音质"/>
+    <rdfs:domain rdf:resource="http://www.xfront.com/owl/ontology/phone/#价钱"/>
+    <rdfs:domain rdf:resource="http://www.xfront.com/owl/ontology/phone/#软件"/>
+    <rdfs:range rdf:resource="http://www.xfront.com/owl/ontology/phone/#边框"/>
+    <rdfs:range rdf:resource="http://www.xfront.com/owl/ontology/phone/#续航力"/>
+    <rdfs:range rdf:resource="http://www.xfront.com/owl/ontology/phone/#兼容性"/>
+    <rdfs:range rdf:resource="http://www.xfront.com/owl/ontology/phone/#反应"/>
+    <rdfs:range rdf:resource="http://www.xfront.com/owl/ontology/phone/#耳机"/>
+    <rdfs:range rdf:resource="http://www.xfront.com/owl/ontology/phone/#铃声"/>
+    <rdfs:domain rdf:resource="http://www.xfront.com/owl/ontology/phone/#系统"/>
+    <rdfs:domain rdf:resource="http://www.xfront.com/owl/ontology/phone/#做工"/>
+    <rdfs:range rdf:resource="http://www.xfront.com/owl/ontology/phone/#视频"/>
+    <rdfs:domain rdf:resource="http://www.xfront.com/owl/ontology/phone/#外壳"/>
+    <rdfs:range rdf:resource="http://www.xfront.com/owl/ontology/phone/#手感"/>
+    <rdfs:domain rdf:resource="http://www.xfront.com/owl/ontology/phone/#信号"/>
+    <rdfs:range rdf:resource="http://www.xfront.com/owl/ontology/phone/#游戏"/>
+    <rdfs:range rdf:resource="http://www.xfront.com/owl/ontology/phone/#价钱"/>
+    <rdfs:range rdf:resource="http://www.xfront.com/owl/ontology/phone/#配置"/>
+    <rdfs:range rdf:resource="http://www.xfront.com/owl/ontology/phone/#系统"/>
+    <rdfs:range rdf:resource="http://www.xfront.com/owl/ontology/phone/#样式"/>
+    <rdfs:range rdf:resource="http://www.xfront.com/owl/ontology/phone/#配件"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="http://www.xfront.com/owl/ontology/phone/#分辨率"/>
+    <rdfs:range rdf:resource="http://www.xfront.com/owl/ontology/phone/#功能"/>
+    <rdfs:range rdf:resource="http://www.xfront.com/owl/ontology/phone/#操作性"/>
+    <rdfs:domain rdf:resource="http://www.xfront.com/owl/ontology/phone/#游戏"/>
+    <rdfs:range rdf:resource="http://www.xfront.com/owl/ontology/phone/#颜色"/>
+    <rdfs:range rdf:resource="http://www.xfront.com/owl/ontology/phone/#摄像头"/>
+    <rdfs:range rdf:resource="http://www.xfront.com/owl/ontology/phone/#扬声器"/>
+    <rdfs:range rdf:resource="http://www.xfront.com/owl/ontology/phone/#清晰度"/>
+    <rdfs:range rdf:resource="http://www.xfront.com/owl/ontology/phone/#包装"/>
+    <rdfs:range rdf:resource="http://www.xfront.com/owl/ontology/phone/#软件"/>
+    <rdfs:range rdf:resource="http://www.xfront.com/owl/ontology/phone/#照片"/>
+    <rdfs:range rdf:resource="http://www.xfront.com/owl/ontology/phone/#外形"/>
+    <rdfs:range rdf:resource="http://www.xfront.com/owl/ontology/phone/#安全性"/>
+    <rdfs:domain rdf:resource="http://www.xfront.com/owl/ontology/phone/#屏幕"/>
+    <rdfs:range rdf:resource="http://www.xfront.com/owl/ontology/phone/#工艺"/>
+    <rdfs:range rdf:resource="http://www.xfront.com/owl/ontology/phone/#按键"/>
+    <rdfs:domain rdf:resource="http://www.xfront.com/owl/ontology/phone/#外观"/>
+    <rdfs:range rdf:resource="http://www.xfront.com/owl/ontology/phone/#重量"/>
+    <rdfs:range rdf:resource="http://www.xfront.com/owl/ontology/phone/#外观"/>
+    <rdfs:range rdf:resource="http://www.xfront.com/owl/ontology/phone/#感觉"/>
+    <rdfs:range rdf:resource="http://www.xfront.com/owl/ontology/phone/#字体"/>
+    <rdfs:range rdf:resource="http://www.xfront.com/owl/ontology/phone/#材质"/>
+    <rdfs:range rdf:resource="http://www.xfront.com/owl/ontology/phone/#画面"/>
+    <rdfs:domain rdf:resource="http://www.xfront.com/owl/ontology/phone/#音量"/>
+    <rdfs:range rdf:resource="http://www.xfront.com/owl/ontology/phone/#画质"/>
+    <rdfs:range rdf:resource="http://www.xfront.com/owl/ontology/phone/#灵敏度"/>
+    <rdfs:range rdf:resource="http://www.xfront.com/owl/ontology/phone/#缝隙"/>
+    <rdfs:range rdf:resource="http://www.xfront.com/owl/ontology/phone/#做工"/>
+    <rdfs:range rdf:resource="http://www.xfront.com/owl/ontology/phone/#速度"/>
+    <rdfs:range rdf:resource="http://www.xfront.com/owl/ontology/phone/#质量"/>
+    <rdfs:range rdf:resource="http://www.xfront.com/owl/ontology/phone/#温度"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#赠品">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#耳机"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#灵敏度">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#屏幕"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#界面">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#系统"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#外壳">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#颜色"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#耗电量">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#手机"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#软件">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#系统"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#摄像头">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#游戏"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#缝隙">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#边框"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#续航力">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#电池"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#温度">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#游戏"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#颜色">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#屏幕"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#音质">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#屏幕"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#质量">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#手机"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#分辨率">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#屏幕"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#感觉">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#手机"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#工艺">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#做工"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#配件">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#耳机"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#速度">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#手机"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#尺寸">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#屏幕"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#边框">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#做工"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#电池">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#屏幕"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#字体">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#系统"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#操作性">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#手机"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#兼容性">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#软件"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#屏幕">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#系统"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#视频">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#游戏"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#扬声器">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#音质"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#画质">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#屏幕"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#安全性">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#系统"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#做工">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#系统"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#系统">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#手机"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#质感">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#做工"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#缺点">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#电池"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#清晰度">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#屏幕"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#铃声">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#音量"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#网络">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#信号"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#性能">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#外观"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#画面">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#游戏"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#样子">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#手机"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#内存">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#软件"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#外观">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#系统"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#手感">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#外观"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#重量">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#手机"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#包装">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#手机"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#材质">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#外壳"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+</rdf:RDF>

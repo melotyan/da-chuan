@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="GBK"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
+ <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#外观">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#手机"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+ <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#外形">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#手机"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+ <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#做工">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#手机"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#重量">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#外观"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#包装">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#外形"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#硬件">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#做工"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.xfront.com/owl/ontology/phone/#材质">
+    <rdfs:subClassOf rdf:resource="http://www.xfront.com/owl/ontology/phone/#做工"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+</rdf:RDF>
